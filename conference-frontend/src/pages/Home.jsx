@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import ConferencesList from "./components/ConferencesList";
-import fakeData from "../data/fake-data.json";
+// import fakeData from "../data/fake-data.json";
 import "./Home.css";
 
 function Home() {
@@ -9,10 +9,12 @@ function Home() {
   // const [loading, setLoading] = useState(false);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
+  // const BASE_URL = process.env.REACT_APP_API_BASE_URL;
+  const BASEURL = "https://947b-92-26-6-164.ngrok-free.app";
+  console.log(BASEURL);
 
   useEffect(() => {
-    // fetch("https://localhost:5000/conferences")
-    fetch("/conferences")
+    fetch(`${BASEURL}/conferences`)
       .then((response) => response.json())
       .then((data) => {
         console.log(data);

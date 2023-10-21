@@ -1,20 +1,21 @@
 import React, { useState } from "react";
-import { useNavigation } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import { Button, TextField, Typography, Container, Box } from "@mui/material";
+const BASEURL = "https://d196-92-26-6-164.ngrok-free.app";
 
 const SignUp = () => {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [error, setError] = useState(null);
-  const navigation = useNavigation();
+  const navigate = useNavigate();
 
   const handleSubmit = async (e) => {
     e.preventDefault();
     // Implement your signup logic here
     // For demonstration purposes, I will mock an API call:
     try {
-      const response = await fetch("http://localhost:5000/signup", {
+      const response = await fetch(`${BASEURL}/signup`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -25,7 +26,7 @@ const SignUp = () => {
       if (response.ok) {
         const data = await response.json();
         // Navigate to login or some other page after successful registration
-        navigation.navigate("/login");
+        navigate("/login");
       } else {
         const data = await response.json();
         setError(data.message || "Failed to sign up");

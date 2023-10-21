@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 import { Container, Box, Typography, Button } from "@mui/material";
-import { useNavigation } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
+const BASEURL = "https://947b-92-26-6-164.ngrok-free.app";
 
 const ConferenceDetail = () => {
   const [conference, setConference] = useState(null);
@@ -9,15 +10,16 @@ const ConferenceDetail = () => {
   const [loading, setLoading] = useState(true);
 
   const { conferenceId } = useParams();
-  const navigation = useNavigation();
+  console.log(conferenceId);
+  const navigate = useNavigate();
 
   useEffect(() => {
     const fetchConference = async () => {
       try {
-        const response = await fetch(
-          `http://localhost:5000/conferences/${conferenceId}`
-        );
+        const response = await fetch(`${BASEURL}/conferences/${conferenceId}`);
         const data = await response.json();
+
+        console.log(data);
 
         if (response.ok) {
           setConference(data);
@@ -36,15 +38,12 @@ const ConferenceDetail = () => {
 
   const handleDelete = async () => {
     try {
-      const response = await fetch(
-        `http://localhost:5000/conferences/${conferenceId}`,
-        {
-          method: "DELETE",
-        }
-      );
+      const response = await fetch(`${BASEURL}/conferences/${conferenceId}`, {
+        method: "DELETE",
+      });
 
       if (response.ok) {
-        navigation.navigate("/");
+        navigate("/");
       } else {
         const data = await response.json();
         setError(data.message || "Failed to delete conference");
@@ -64,8 +63,18 @@ const ConferenceDetail = () => {
         ) : (
           <>
             <Typography variant="h4" component="h1" gutterBottom>
-              {conference.name}
+              {conference.title}
             </Typography>
+            {/* Display the conference image if available */}
+            {conference.image_url && (
+              <Box sx={{ my: 2 }}>
+                <img
+                  src={conference.image_url}
+                  alt={conference.title}
+                  style={{ maxWidth: "100%", height: "auto" }}
+                />
+              </Box>
+            )}
             <Typography variant="h6" gutterBottom>
               Date: {conference.date}
             </Typography>
@@ -83,7 +92,7 @@ const ConferenceDetail = () => {
                   style={{ marginRight: "15px" }}
                   onClick={() => {
                     // Redirect to edit conference page
-                    navigation.navigate(`/edit-conference/${conferenceId}`);
+                    navigate(`${BASEURL}/edit-conference/${conferenceId}`);
                   }}
                 >
                   Edit

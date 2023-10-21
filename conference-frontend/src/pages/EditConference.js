@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 import axios from "axios"; // Assuming you're using axios for HTTP requests
 import { useNavigation } from "react-router-dom";
+const BASEURL = "https://947b-92-26-6-164.ngrok-free.app";
 
 function EditConference() {
   const { conferenceId } = useParams();
@@ -18,7 +19,7 @@ function EditConference() {
   useEffect(() => {
     // Fetch the current conference data when the page loads
     axios
-      .get(`/api/conferences/${conferenceId}`)
+      .get(`${BASEURL}/conferences/${conferenceId}`)
       .then((response) => {
         setConferenceData(response.data);
       })
@@ -39,7 +40,7 @@ function EditConference() {
       .put(`/api/conferences/${conferenceId}`, conferenceData)
       .then((response) => {
         // Redirect to the conference detail page or another suitable location
-        navigation.navigate(`/conferences/${conferenceId}`);
+        navigation.navigate(`{BASEURL}/conferences/${conferenceId}`);
       })
       .catch((err) => {
         setError("Failed to update the conference.");

@@ -1,0 +1,39 @@
+/* components/Navbar.css */
+.navbar {
+  background-color: #333;
+  padding: 10px 0;
+}
+
+.navbar-container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-logo {
+  color: white;
+  font-size: 1.5rem;
+}
+
+.navbar-menu {
+  list-style-type: none;
+  display: flex;
+  gap: 20px; /* spacing between menu items */
+}
+
+.navbar-item {
+  /* You can add additional styles for each item if needed */
+}
+
+.navbar-link {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.navbar-link:hover {
+  color: #ddd;
+}

@@ -11,7 +11,8 @@ def create_app():
     app.config["SQLALCHEMY_DATABASE_URI"] = "sqlite:///qrconferenceapp.db"
     app.config["SQLALCHEMY_TRACK_MODIFICATIONS"] = False
     app.config["SECRET_KEY"] = "some-secret-key"
-    CORS(app)
+    CORS(app, origins=["http://localhost:3000"])
+    # CORS(app)
 
     register_blueprints(app)
     db.init_app(app)

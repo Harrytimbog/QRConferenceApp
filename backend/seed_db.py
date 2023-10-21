@@ -103,7 +103,8 @@ conferences = [
 
 with app.app_context():
     # Let's fetch a user to associate with these conferences
-    user = User.query.first()
+    # user = User.query.first()
+    user = User.query.offset(1).limit(1).first()
 
     if not user:
         print("No users found in the database! Please create a user first.")
