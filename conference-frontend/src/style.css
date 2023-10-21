@@ -1,0 +1,72 @@
+/* General Container Styles for the EditConference Page */
+.conference-edit-container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+/* Heading Styles */
+.conference-edit-container h2 {
+  text-align: center;
+  font-size: 1.8em;
+  margin-bottom: 25px;
+  color: #333;
+}
+
+/* Form Grouping - for individual input groups */
+.form-group {
+  margin-bottom: 20px;
+}
+
+/* Label Styles */
+.form-group label {
+  display: block;
+  font-size: 1em;
+  margin-bottom: 10px;
+  color: #555;
+}
+
+/* Input and Textarea Styles */
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 10px 15px;
+  border: 1px solid #e0e0e0;
+  border-radius: 5px;
+  font-size: 1em;
+  transition: border-color 0.3s;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  border-color: #007bff; /* Highlighting the border when the input is focused */
+  outline: none;
+}
+
+/* Error Message Styles */
+.error {
+  color: #d32f2f;
+  font-size: 0.9em;
+  margin-bottom: 10px;
+}
+
+/* Submit Button Styles */
+button[type="submit"] {
+  display: inline-block;
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 1em;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+  background-color: #0056b3; /* Darken the color slightly on hover */
+}

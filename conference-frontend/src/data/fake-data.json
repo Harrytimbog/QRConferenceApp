@@ -1,0 +1,308 @@
+[
+  {
+    "creator": {
+      "email": "johnDoe@example.com",
+      "full_name": "John Doe",
+      "id": 101,
+      "is_admin": true
+    },
+    "date_time": "2023-11-15T10:30:00",
+    "description": "A mock conference about tech innovations.",
+    "id": 1001,
+    "image_url": "https://images.unsplash.com/photo-1559223607-a43c990c692c?auto=format&fit=crop&q=60&w=800&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y29uZmVyZW5jZSUyMHZlbnVlc3xlbnwwfHwwfHx8MA%3D%3D",
+    "rsvp": "mock-conference-2023.eventbrite.com",
+    "title": "Mock Conference 2023",
+    "url": "https://mock-conference-2023.com",
+    "user_id": 101,
+    "venue": "Mock Convention Center"
+  },
+  {
+    "creator": {
+      "email": "janeDoe@example.com",
+      "full_name": "Jane Doe",
+      "id": 102,
+      "is_admin": false
+    },
+    "date_time": "2023-12-05T10:30:00",
+    "description": "An imaginary symposium on AI.",
+    "id": 1002,
+    "image_url": "https://images.unsplash.com/photo-1526045004414-3e7ed02f9ca1?auto=format&fit=crop&q=60&w=800&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Y29uZmVyZW5jZSUyMHZlbnVlc3xlbnwwfHwwfHx8MA%3D%3D",
+    "rsvp": "ai-symposium-2023.eventbrite.com",
+    "title": "AI Symposium 2023",
+    "url": "https://ai-symposium-2023.com",
+    "user_id": 102,
+    "venue": "AI Innovation Center"
+  },
+  {
+    "creator": {
+      "email": "johnDoe@example.com",
+      "full_name": "John Doe",
+      "id": 101,
+      "is_admin": true
+    },
+    "date_time": "2023-11-15T10:30:00",
+    "description": "A mock conference about tech innovations.",
+    "id": 1001,
+    "image_url": "https://images.unsplash.com/photo-1559223607-a43c990c692c?auto=format&fit=crop&q=60&w=800&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y29uZmVyZW5jZSUyMHZlbnVlc3xlbnwwfHwwfHx8MA%3D%3D",
+    "rsvp": "mock-conference-2023.eventbrite.com",
+    "title": "Mock Conference 2023",
+    "url": "https://mock-conference-2023.com",
+    "user_id": 101,
+    "venue": "Mock Convention Center"
+  },
+  {
+    "creator": {
+      "email": "janeDoe@example.com",
+      "full_name": "Jane Doe",
+      "id": 102,
+      "is_admin": false
+    },
+    "date_time": "2023-12-05T10:30:00",
+    "description": "An imaginary symposium on AI.",
+    "id": 1002,
+    "image_url": "https://images.unsplash.com/photo-1526045004414-3e7ed02f9ca1?auto=format&fit=crop&q=60&w=800&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Y29uZmVyZW5jZSUyMHZlbnVlc3xlbnwwfHwwfHx8MA%3D%3D",
+    "rsvp": "ai-symposium-2023.eventbrite.com",
+    "title": "AI Symposium 2023",
+    "url": "https://ai-symposium-2023.com",
+    "user_id": 102,
+    "venue": "AI Innovation Center"
+  },
+  {
+    "creator": {
+      "email": "johnDoe@example.com",
+      "full_name": "John Doe",
+      "id": 101,
+      "is_admin": true
+    },
+    "date_time": "2023-11-15T10:30:00",
+    "description": "A mock conference about tech innovations.",
+    "id": 1001,
+    "image_url": "https://images.unsplash.com/photo-1559223607-a43c990c692c?auto=format&fit=crop&q=60&w=800&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y29uZmVyZW5jZSUyMHZlbnVlc3xlbnwwfHwwfHx8MA%3D%3D",
+    "rsvp": "mock-conference-2023.eventbrite.com",
+    "title": "Mock Conference 2023",
+    "url": "https://mock-conference-2023.com",
+    "user_id": 101,
+    "venue": "Mock Convention Center"
+  },
+  {
+    "creator": {
+      "email": "janeDoe@example.com",
+      "full_name": "Jane Doe",
+      "id": 102,
+      "is_admin": false
+    },
+    "date_time": "2023-12-05T10:30:00",
+    "description": "An imaginary symposium on AI.",
+    "id": 1002,
+    "image_url": "https://images.unsplash.com/photo-1526045004414-3e7ed02f9ca1?auto=format&fit=crop&q=60&w=800&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Y29uZmVyZW5jZSUyMHZlbnVlc3xlbnwwfHwwfHx8MA%3D%3D",
+    "rsvp": "ai-symposium-2023.eventbrite.com",
+    "title": "AI Symposium 2023",
+    "url": "https://ai-symposium-2023.com",
+    "user_id": 102,
+    "venue": "AI Innovation Center"
+  },
+  {
+    "creator": {
+      "email": "johnDoe@example.com",
+      "full_name": "John Doe",
+      "id": 101,
+      "is_admin": true
+    },
+    "date_time": "2023-11-15T10:30:00",
+    "description": "A mock conference about tech innovations.",
+    "id": 1001,
+    "image_url": "https://images.unsplash.com/photo-1559223607-a43c990c692c?auto=format&fit=crop&q=60&w=800&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y29uZmVyZW5jZSUyMHZlbnVlc3xlbnwwfHwwfHx8MA%3D%3D",
+    "rsvp": "mock-conference-2023.eventbrite.com",
+    "title": "Mock Conference 2023",
+    "url": "https://mock-conference-2023.com",
+    "user_id": 101,
+    "venue": "Mock Convention Center"
+  },
+  {
+    "creator": {
+      "email": "janeDoe@example.com",
+      "full_name": "Jane Doe",
+      "id": 102,
+      "is_admin": false
+    },
+    "date_time": "2023-12-05T10:30:00",
+    "description": "An imaginary symposium on AI.",
+    "id": 1002,
+    "image_url": "https://images.unsplash.com/photo-1526045004414-3e7ed02f9ca1?auto=format&fit=crop&q=60&w=800&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Y29uZmVyZW5jZSUyMHZlbnVlc3xlbnwwfHwwfHx8MA%3D%3D",
+    "rsvp": "ai-symposium-2023.eventbrite.com",
+    "title": "AI Symposium 2023",
+    "url": "https://ai-symposium-2023.com",
+    "user_id": 102,
+    "venue": "AI Innovation Center"
+  },
+  {
+    "creator": {
+      "email": "johnDoe@example.com",
+      "full_name": "John Doe",
+      "id": 101,
+      "is_admin": true
+    },
+    "date_time": "2023-11-15T10:30:00",
+    "description": "A mock conference about tech innovations.",
+    "id": 1001,
+    "image_url": "https://images.unsplash.com/photo-1559223607-a43c990c692c?auto=format&fit=crop&q=60&w=800&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y29uZmVyZW5jZSUyMHZlbnVlc3xlbnwwfHwwfHx8MA%3D%3D",
+    "rsvp": "mock-conference-2023.eventbrite.com",
+    "title": "Mock Conference 2023",
+    "url": "https://mock-conference-2023.com",
+    "user_id": 101,
+    "venue": "Mock Convention Center"
+  },
+  {
+    "creator": {
+      "email": "janeDoe@example.com",
+      "full_name": "Jane Doe",
+      "id": 102,
+      "is_admin": false
+    },
+    "date_time": "2023-12-05T10:30:00",
+    "description": "An imaginary symposium on AI.",
+    "id": 1002,
+    "image_url": "https://images.unsplash.com/photo-1526045004414-3e7ed02f9ca1?auto=format&fit=crop&q=60&w=800&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Y29uZmVyZW5jZSUyMHZlbnVlc3xlbnwwfHwwfHx8MA%3D%3D",
+    "rsvp": "ai-symposium-2023.eventbrite.com",
+    "title": "AI Symposium 2023",
+    "url": "https://ai-symposium-2023.com",
+    "user_id": 102,
+    "venue": "AI Innovation Center"
+  },
+  {
+    "creator": {
+      "email": "johnDoe@example.com",
+      "full_name": "John Doe",
+      "id": 101,
+      "is_admin": true
+    },
+    "date_time": "2023-11-15T10:30:00",
+    "description": "A mock conference about tech innovations.",
+    "id": 1001,
+    "image_url": "https://images.unsplash.com/photo-1559223607-a43c990c692c?auto=format&fit=crop&q=60&w=800&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y29uZmVyZW5jZSUyMHZlbnVlc3xlbnwwfHwwfHx8MA%3D%3D",
+    "rsvp": "mock-conference-2023.eventbrite.com",
+    "title": "Mock Conference 2023",
+    "url": "https://mock-conference-2023.com",
+    "user_id": 101,
+    "venue": "Mock Convention Center"
+  },
+  {
+    "creator": {
+      "email": "janeDoe@example.com",
+      "full_name": "Jane Doe",
+      "id": 102,
+      "is_admin": false
+    },
+    "date_time": "2023-12-05T10:30:00",
+    "description": "An imaginary symposium on AI.",
+    "id": 1002,
+    "image_url": "https://images.unsplash.com/photo-1526045004414-3e7ed02f9ca1?auto=format&fit=crop&q=60&w=800&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Y29uZmVyZW5jZSUyMHZlbnVlc3xlbnwwfHwwfHx8MA%3D%3D",
+    "rsvp": "ai-symposium-2023.eventbrite.com",
+    "title": "AI Symposium 2023",
+    "url": "https://ai-symposium-2023.com",
+    "user_id": 102,
+    "venue": "AI Innovation Center"
+  },
+  {
+    "creator": {
+      "email": "johnDoe@example.com",
+      "full_name": "John Doe",
+      "id": 101,
+      "is_admin": true
+    },
+    "date_time": "2023-11-15T10:30:00",
+    "description": "A mock conference about tech innovations.",
+    "id": 1001,
+    "image_url": "https://images.unsplash.com/photo-1559223607-a43c990c692c?auto=format&fit=crop&q=60&w=800&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y29uZmVyZW5jZSUyMHZlbnVlc3xlbnwwfHwwfHx8MA%3D%3D",
+    "rsvp": "mock-conference-2023.eventbrite.com",
+    "title": "Mock Conference 2023",
+    "url": "https://mock-conference-2023.com",
+    "user_id": 101,
+    "venue": "Mock Convention Center"
+  },
+  {
+    "creator": {
+      "email": "janeDoe@example.com",
+      "full_name": "Jane Doe",
+      "id": 102,
+      "is_admin": false
+    },
+    "date_time": "2023-12-05T10:30:00",
+    "description": "An imaginary symposium on AI.",
+    "id": 1002,
+    "image_url": "https://images.unsplash.com/photo-1526045004414-3e7ed02f9ca1?auto=format&fit=crop&q=60&w=800&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Y29uZmVyZW5jZSUyMHZlbnVlc3xlbnwwfHwwfHx8MA%3D%3D",
+    "rsvp": "ai-symposium-2023.eventbrite.com",
+    "title": "AI Symposium 2023",
+    "url": "https://ai-symposium-2023.com",
+    "user_id": 102,
+    "venue": "AI Innovation Center"
+  },
+  {
+    "creator": {
+      "email": "johnDoe@example.com",
+      "full_name": "John Doe",
+      "id": 101,
+      "is_admin": true
+    },
+    "date_time": "2023-11-15T10:30:00",
+    "description": "A mock conference about tech innovations.",
+    "id": 1001,
+    "image_url": "https://images.unsplash.com/photo-1559223607-a43c990c692c?auto=format&fit=crop&q=60&w=800&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y29uZmVyZW5jZSUyMHZlbnVlc3xlbnwwfHwwfHx8MA%3D%3D",
+    "rsvp": "mock-conference-2023.eventbrite.com",
+    "title": "Mock Conference 2023",
+    "url": "https://mock-conference-2023.com",
+    "user_id": 101,
+    "venue": "Mock Convention Center"
+  },
+  {
+    "creator": {
+      "email": "janeDoe@example.com",
+      "full_name": "Jane Doe",
+      "id": 102,
+      "is_admin": false
+    },
+    "date_time": "2023-12-05T10:30:00",
+    "description": "An imaginary symposium on AI.",
+    "id": 1002,
+    "image_url": "https://images.unsplash.com/photo-1526045004414-3e7ed02f9ca1?auto=format&fit=crop&q=60&w=800&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Y29uZmVyZW5jZSUyMHZlbnVlc3xlbnwwfHwwfHx8MA%3D%3D",
+    "rsvp": "ai-symposium-2023.eventbrite.com",
+    "title": "AI Symposium 2023",
+    "url": "https://ai-symposium-2023.com",
+    "user_id": 102,
+    "venue": "AI Innovation Center"
+  },
+  {
+    "creator": {
+      "email": "johnDoe@example.com",
+      "full_name": "John Doe",
+      "id": 101,
+      "is_admin": true
+    },
+    "date_time": "2023-11-15T10:30:00",
+    "description": "A mock conference about tech innovations.",
+    "id": 1001,
+    "image_url": "https://images.unsplash.com/photo-1559223607-a43c990c692c?auto=format&fit=crop&q=60&w=800&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y29uZmVyZW5jZSUyMHZlbnVlc3xlbnwwfHwwfHx8MA%3D%3D",
+    "rsvp": "mock-conference-2023.eventbrite.com",
+    "title": "Mock Conference 2023",
+    "url": "https://mock-conference-2023.com",
+    "user_id": 101,
+    "venue": "Mock Convention Center"
+  },
+  {
+    "creator": {
+      "email": "janeDoe@example.com",
+      "full_name": "Jane Doe",
+      "id": 102,
+      "is_admin": false
+    },
+    "date_time": "2023-12-05T10:30:00",
+    "description": "An imaginary symposium on AI.",
+    "id": 1002,
+    "image_url": "https://images.unsplash.com/photo-1526045004414-3e7ed02f9ca1?auto=format&fit=crop&q=60&w=800&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Y29uZmVyZW5jZSUyMHZlbnVlc3xlbnwwfHwwfHx8MA%3D%3D",
+    "rsvp": "ai-symposium-2023.eventbrite.com",
+    "title": "AI Symposium 2023",
+    "url": "https://ai-symposium-2023.com",
+    "user_id": 102,
+    "venue": "AI Innovation Center"
+  }
+]
